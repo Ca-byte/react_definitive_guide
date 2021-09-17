@@ -8,6 +8,7 @@ const ExpenseItem = (props) => {
   const clickHandler = () => {
     setTitle("Ma Peach! ");
     console.log("You rock, Carol!");
+    console.log("Testing");
   };
   return (
     <Card className="expense-item">
